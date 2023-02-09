@@ -26,19 +26,19 @@
 }
 
 body {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.6;
   font-family: "Libre Baskerville", serif;
 }
 
 blockquote {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "SAA Series FD";
   font-weight: 100;
   letter-spacing: 0.03rem;
   color: var(--peru);
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .arrow:hover {
@@ -48,11 +48,11 @@ blockquote {
   -ms-transition: transform 0.8s ease-out;
   -o-transition: transform 0.8s ease-out;
   transition: transform 0.8s ease-out;
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px);
-  transform: translateX(10px);
+  -webkit-transform: translateX(0.625rem);
+  -moz-transform: translateX(0.625rem);
+  -ms-transform: translateX(0.625rem);
+  -o-transform: translateX(0.625rem);
+  transform: translateX(0.625rem);
 }
 
 /*  */
@@ -80,7 +80,7 @@ blockquote {
 }
 
 .meal-wrapper {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: 0 auto;
   background: #fff;
   text-align: center;
@@ -103,16 +103,16 @@ blockquote {
   margin: 3rem 3rem 3rem 3rem;
   width: 100%;
   border: 0px;
-  border-bottom: 1px solid var(--ultramarine);
+  border-bottom: 0.063rem solid var(--ultramarine);
   color: var(--ultramarine);
 }
 
 .search-control {
   font-family: "SAA Series FD";
-  letter-spacing: 1.1px;
-  font-size: 12px;
+  letter-spacing: 0.069rem;
+  font-size: 0.75rem;
   outline: 0;
-  min-width: 200px;
+  min-width: 12.5rem;
   -webkit-transition: border-color 0.15s ease;
   -o-transition: border-color 0.15s ease;
   transition: border-color 0.15s ease;
@@ -121,20 +121,20 @@ blockquote {
   background-image: url(D-search.svg);
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: 10px;
+  background-size: 0.625rem;
 }
 
 .search-control::placeholder {
   color: var(--ultramarine);
   font-family: "SAA Series FD";
-  letter-spacing: 1.1px;
-  font-size: 12px;
+  letter-spacing: 0.069rem;
+  font-size: 0.75rem;
   text-align: left;
   opacity: 0.8;
 }
 
 .search-control:hover {
-  border-bottom: 1px solid var(--ultramarine-dark);
+  border-bottom: 0.063rem solid var(--ultramarine-dark);
   color: var(--ultramarine-dark);
 }
 
@@ -143,8 +143,8 @@ blockquote {
 }
 
 .search-btn {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   font-size: 1rem;
   color: var(--ultramarine);
   background-color: #fff;
@@ -206,11 +206,11 @@ blockquote {
   color: var(--ultramarine);
   text-transform: uppercase;
   font-family: "SAA Series FD";
-  letter-spacing: 1.1px;
-  font-size: 12px;
+  letter-spacing: 0.069rem;
+  font-size: 0.75rem;
   padding: 0.75rem 0;
   display: block;
-  width: 175px;
+  width: 10.938rem;
   margin: 1rem auto;
   transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
@@ -248,7 +248,7 @@ blockquote {
 }
 
 .meal-details::-webkit-scrollbar {
-  width: 10px;
+  width: 0.625rem;
 }
 
 .meal-details::-webkit-scrollbar-thumb {
@@ -281,8 +281,8 @@ blockquote {
   color: var(--eden);
   background: var(--cherokee);
   border: none;
-  width: 35x;
-  height: 35px;
+  width: 2.188rem;
+  height: 2.188rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -295,7 +295,7 @@ blockquote {
 }
 
 .recipe-title {
-  letter-spacing: 1px;
+  letter-spacing: 0.063rem;
   padding-bottom: 1rem;
   color: var(--eden);
   text-transform: uppercase;
@@ -331,7 +331,7 @@ blockquote {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "SAA Series FD";
-  letter-spacing: 1.1px;
+  letter-spacing: 0.069rem;
 }
 
 .recipe-link a {
